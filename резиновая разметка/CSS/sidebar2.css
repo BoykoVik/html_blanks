@@ -1,0 +1,6 @@
+#sidebar2 {
+    height:80px;
+    background-color: #2FF553;
+    width: 20%; /*Меняем на 20%*/
+    float: right;
+}

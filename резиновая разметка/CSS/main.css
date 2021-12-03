@@ -1,0 +1,6 @@
+#main {
+    width: 60%; /*Меняем на 80%*/
+    outline: 1px solid #787274;
+    padding: 0px;
+    margin: 0 auto;
+}
