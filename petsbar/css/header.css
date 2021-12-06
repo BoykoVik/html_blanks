@@ -89,7 +89,7 @@
     height: 60px;
 }
 .basket {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 5%;
     margin-bottom: 20px;
 }
@@ -117,7 +117,6 @@
 .basket a:hover {
     background: linear-gradient(180deg, #FFBE73 0%, #FAFAFA 100%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
 }
 
 .divbas {
