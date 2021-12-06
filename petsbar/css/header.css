@@ -1,0 +1,121 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(180deg, #FF8900 0%, rgba(255, 166, 64, 0.7) 100%);
+}
+
+.lable {
+    margin-left: 5%;
+}
+
+.header h1 {
+    margin: 0;
+    font-family: "Rock Salt";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 115px;
+    color: #212121;
+    text-shadow: 6px 6px 10px rgba(255, 251, 251, 0.79);
+}
+
+.header h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 156.1%;
+    /* or 22px */
+    align-items: center;
+    letter-spacing: 0.215em;
+    color: #000000;
+}
+
+.menuhead {
+    margin: auto;
+    display: flex;
+}
+
+.menuhead a {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-decoration: none;
+    color: #212121;
+
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.tel img {
+    width: 30px;
+    height: 30px;
+}
+.tel {
+    display: flex;
+}
+.tel a {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #212121;
+}
+.menuhead a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.basket img {
+    width: 60px;
+    height: 60px;
+}
+.basket {
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.basket a {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.195em;
+
+    color: #212121;
+    background: linear-gradient(180deg, #FAFAFA 0%, #FFBE73 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: auto;
+}
+
+.basket a:hover {
+    background: linear-gradient(180deg, #FFBE73 0%, #FAFAFA 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.divbas {
+    display: flex;
+    flex-direction: row;
+}
