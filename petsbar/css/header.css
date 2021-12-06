@@ -34,6 +34,7 @@
 
 .menuhead {
     margin: auto;
+    margin-right: 0;
     display: flex;
 }
 
@@ -48,7 +49,6 @@
     letter-spacing: -0.05em;
     text-decoration: none;
     color: #212121;
-
     margin-right: 20px;
     text-transform: uppercase;
 }
@@ -59,6 +59,7 @@
 }
 .tel {
     display: flex;
+
 }
 .tel a {
     font-family: "Ubuntu";
@@ -66,7 +67,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: -0.05em;
@@ -98,7 +98,6 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.195em;
-
     color: #212121;
     background: linear-gradient(180deg, #FAFAFA 0%, #FFBE73 100%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
