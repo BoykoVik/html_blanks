@@ -1,0 +1,72 @@
+.content {
+    width: 70%;
+    margin: auto;
+}
+.conteinershadow {
+    box-shadow: inset -5px -5px 4px rgba(255, 138, 0, 0.25), inset 5px 5px 10px -1px rgba(255, 138, 0, 0.42);
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+
+}
+/* Контейнер слайд-шоу */
+.slideshow-container {
+    width: 99%;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  /* Подпись текста */
+  .text {
+    color: #000000;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 90%;
+    text-align: center;
+  }
+  
+
+  /* Точки/пули/индикаторы */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #FF8900;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: rgb(255, 166, 64);
+  }
+  
+  /* Исчезающая анимация */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    text-align: center;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* На небольших экранах уменьшите размер текста */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
