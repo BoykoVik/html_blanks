@@ -2,3 +2,19 @@
     width: 70%;
     margin: auto;
 }
+.cart {
+    width: 150px;
+    height: 255px;
+    background: #FFF7E3;
+    border: 1px solid #FF8900;
+    box-sizing: border-box;
+    border-radius: 11px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart img {
+    width: 120px;
+    height: 120px;
+    padding-top: 10px;
+}

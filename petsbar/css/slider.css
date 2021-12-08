@@ -5,9 +5,11 @@ img {vertical-align: middle;}
 
 /* Контейнер слайд-шоу */
 .slideshow-container {
+
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 10px;
 }
 
 /* Вперед и назад кнопки */
