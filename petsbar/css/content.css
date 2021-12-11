@@ -1,7 +1,7 @@
 .content {
     width: 70%;
     margin: auto;
-    
+    background-color: rgba(255, 255, 255, 0.61)
 }
 .carts {
     display: flex;
@@ -38,7 +38,6 @@
     align-items: center;
     text-align: center;
     letter-spacing: -0.05em;
-
     color: #000000;
 }
 
@@ -81,4 +80,33 @@
     width: 64px;
     height: 16.94px;
     margin: 0;
+}
+
+.h3s {
+    margin-top: 10px;
+    margin-left: 10%;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0.195em;
+    text-transform: uppercase;
+}
+.populars {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
+.populars a {
+    width: 12%;
+    filter: drop-shadow(7px 7px 4px rgba(250, 152, 5, 0.41));
+    margin-left: 5px;
+}
+.populars img {
+    width: 100%;
+
 }

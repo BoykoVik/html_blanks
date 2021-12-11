@@ -1,4 +1,70 @@
 .footer {
-    background-color: #fff;
-    opacity: 0.5;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(180deg, rgba(255, 166, 64, 0.7) 0%, #E77D00 100%);
+}
+.footer h2 {
+    margin: 0;
+    font-family: "Rock Salt";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 115px;
+    color: #212121;
+    text-shadow: 6px 6px 10px rgba(255, 251, 251, 0.79);
+    margin-right: 10px;
+}
+
+.footer h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+    color: #000000;
+    bottom: 0;
+}
+.footer a {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    color: #212121;
+}
+.footer a:hover {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.first {
+    width: 33%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.first h3 {
+    position: absolute;
+    bottom: 0;
+}
+.first img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.second {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.thirt {
+    width: 33%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
 }
