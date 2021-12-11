@@ -1,12 +1,15 @@
 .content {
     width: 70%;
     margin: auto;
+    
 }
 .carts {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
 .cart {
     float: left;
@@ -18,6 +21,7 @@
     border-radius: 11px;
     text-align: center;
     margin: auto;
+    position: relative;
 }
 
 .cart img {
@@ -43,18 +47,19 @@
     justify-content: center;
     margin: 0;
     text-align: center;
-    bottom: 0;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
 }
 .buy a {
     font-family: "Ubuntu";
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 10px;
     line-height: 10px;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.065em;
     text-transform: uppercase;
     color: #000000;
     padding: 0 3px;
@@ -62,6 +67,7 @@
     background: #FFA53D;
     border-radius: 10px;
     margin: 0;
+    text-decoration: none;
 }
 .buy h6 {
     font-family: sans-serif;
