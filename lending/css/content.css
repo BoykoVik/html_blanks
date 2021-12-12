@@ -38,8 +38,9 @@
     background-color: #C5D1D8;
 }
 .content {
-    width: 70%;
+    width: 60%;
     margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
