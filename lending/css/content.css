@@ -1,0 +1,54 @@
+.conthaed {
+    display: flex;
+}
+.conthaed h1 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 52px;
+    text-transform: uppercase;
+    padding-left: 15%;
+    color: #FAFBFD;
+    text-align: left;
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    align-items: center;
+}
+.conthaed p {
+    display: flex;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    filter: blur(2px);
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    align-items: flex-end;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    background-color: #C5D1D8;
+}
+.content {
+    width: 70%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cart {
+    width: 250px;
+    height: 200px;
+    
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+}
