@@ -6,10 +6,10 @@
     align-items: center;
     background-image: url("../images/fons/middle.jpg");
 
-    /* Установите определенную высоту */
+    /*  
     height: 500px;
-
-    /* Создайте эффект параллакса прокрутки */
+*/
+    /* эффект параллакса прокрутки */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
     justify-content: space-evenly;
 }
 .dopworks h3 {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;

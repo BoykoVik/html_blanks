@@ -14,10 +14,12 @@ var sticky = navbar.offsetTop;
 function myFunction() {
   if (document.documentElement.scrollTop >= 34) {
     //navbar.style.backgroundColor = "red";
+    navbar.classList.remove("stickyt");
     navbar.classList.add("sticky");
   } else {
     //navbar.style.backgroundColor = "blue";
     navbar.classList.remove("sticky");
+    navbar.classList.add("stickyt");
   }
   //console.log(document.documentElement.scrollTop);
 }

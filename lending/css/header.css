@@ -44,6 +44,11 @@
     color: #F17B7B;
 }
 .sticky {
-
     background-color: #C5D1D8;
-  }
+    transition: background 1s ease;
+}
+
+.stickyt {
+    background: transparent;
+    transition: background 1s ease;
+}
