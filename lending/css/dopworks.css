@@ -110,7 +110,7 @@
     font-size: 14px;
   }
 
-  .flipp-box:hover .flip-box-inner {
+  .flipp-box:hover .flipp-box-inner {
     transform: none;
   }
   .flipp-box-front {
