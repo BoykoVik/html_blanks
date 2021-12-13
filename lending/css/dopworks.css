@@ -109,10 +109,22 @@
     margin: 5px 5px 5px 5px;
     font-size: 14px;
   }
-  .cartimgs {
+
+  .flipp-box:hover .flip-box-inner {
+    transform: none;
+  }
+  .flipp-box-front {
+    justify-content: space-evenly;
+    height: auto;
+  }
+  .flipp-box-front {
+    width: 100%;
+    position: relative;
+  }
+  .flipp-box-back {
     display: none;
   }
-  .flipp-box:hover .flipp-box-inner {
-    transform: none;
+  .flipp-box-inner {
+    height: auto;
   }
 }

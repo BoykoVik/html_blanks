@@ -77,10 +77,22 @@
     margin: 5px 5px 5px 5px;
     font-size: 14px;
   }
-  .cartimgs {
-    display: none;
-  }
+
   .flip-box:hover .flip-box-inner {
     transform: none;
+  }
+  .flip-box-front {
+    justify-content: space-evenly;
+    height: auto;
+  }
+  .flip-box-front {
+    width: 100%;
+    position: relative;
+  }
+  .flip-box-back {
+    display: none;
+  }
+  .flip-box-inner {
+    height: auto;
   }
 }

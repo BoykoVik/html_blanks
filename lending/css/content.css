@@ -38,18 +38,61 @@
     height: 50px;
 }
 
+.wsev {
+    width: 70px;
+}
+.hsev {
+    height: 70px;
+}
+.wth {
+    width: 200px;
+}
+.hoh {
+    height: 100px;
+}
+.wohf {
+    width: 125px;
+}
+.hsix {
+    height: 60px;
+}
+.wsix {
+    width: 60px;
+}
 @media screen and (max-width: 985px) {
     .cart {
-        width: 250px;
-        height: 100px;
+        width: 80%;
+        height: auto;
         border-radius: 5px;
         margin: 10px 5px 10px 5px;
     }
     .content {
+        width: 90%;
         align-items: flex-start;
     }
     .contact img {
-        width: 30px;
-        height: 30px;
+        width: 10px;
+        height: 10px;
+    }
+    .wsev {
+        width: 60px;
+    }
+    .hsev {
+        height: 60px;
+    }
+    .wth {
+        width: 100px;
+    }
+    .hoh {
+        height: 50px;
+    }
+    .wohf {
+        width: 100px;
+    }
+    .hsix {
+        height: 50px;
+    }
+    .wsix {
+        width: 50px;
     }
 }
