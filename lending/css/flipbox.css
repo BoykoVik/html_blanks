@@ -71,3 +71,16 @@
   justify-content: space-around;
   align-content: space-around;
 }
+
+@media screen and (max-width: 985px) {
+  .flip-box-front p {
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+  }
+  .cartimgs {
+    display: none;
+  }
+  .flip-box:hover .flip-box-inner {
+    transform: none;
+  }
+}

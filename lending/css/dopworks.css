@@ -103,3 +103,16 @@
     color: #b99b9b;
     text-transform: uppercase;
   }
+
+@media screen and (max-width: 985px) {
+  .flipp-box-front p {
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+  }
+  .cartimgs {
+    display: none;
+  }
+  .flipp-box:hover .flipp-box-inner {
+    transform: none;
+  }
+}
