@@ -96,3 +96,15 @@
         width: 50px;
     }
 }
+
+.element-animationrotate {
+    /* Скрыть элемент в начальном состоянии */
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+
+.element-animationrotate.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: rotate(0);
+}
