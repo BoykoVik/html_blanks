@@ -1,0 +1,110 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    background-color: #C5D1D8;
+}
+.content {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cart {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+}
+
+.hcont {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+.contact img {
+    width: 50px;
+    height: 50px;
+}
+
+.wsev {
+    width: 70px;
+}
+.hsev {
+    height: 70px;
+}
+.wth {
+    width: 200px;
+}
+.hoh {
+    height: 100px;
+}
+.wohf {
+    width: 125px;
+}
+.hsix {
+    height: 60px;
+}
+.wsix {
+    width: 60px;
+}
+@media screen and (max-width: 985px) {
+    .cart {
+        width: 80%;
+        height: auto;
+        border-radius: 5px;
+        margin: 10px 5px 10px 5px;
+    }
+    .content {
+        width: 90%;
+        align-items: flex-start;
+    }
+    .contact img {
+        width: 10px;
+        height: 10px;
+    }
+    .wsev {
+        width: 60px;
+    }
+    .hsev {
+        height: 60px;
+    }
+    .wth {
+        width: 100px;
+    }
+    .hoh {
+        height: 50px;
+    }
+    .wohf {
+        width: 100px;
+    }
+    .hsix {
+        height: 50px;
+    }
+    .wsix {
+        width: 50px;
+    }
+}
+
+.element-animationrotate {
+    /* Скрыть элемент в начальном состоянии */
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+
+.element-animationrotate.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: rotate(0);
+}
