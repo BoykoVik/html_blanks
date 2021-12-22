@@ -48,7 +48,6 @@
     margin: 0 auto 0 auto;
     width: 1079px;
     height: 732px;
-    background-color: tomato;
 }
 .headercontainer h1 {
     position: absolute;
@@ -82,11 +81,28 @@
 }
 .headercontainer a {
     position: absolute;
-width: 274px;
-height: 56.05px;
-left: 421px;
-top: 439px;
-
-background: #F4A407;
-border-radius: 12.4545px;
+    width: 274px;
+    height: 56.05px;
+    left: 421px;
+    top: 439px;
+    background: #F4A407;
+    border-radius: 12.4545px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.9273px;
+    line-height: 23px;
+    color: #001241;
+}
+.headercontainer img {
+    position: absolute;
+    width: 501.45px;
+    height: 599.83px;
+    left: 901px;
+    top: 70px;
 }

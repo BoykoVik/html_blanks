@@ -1,110 +1,109 @@
-
-.container {
+.servise {
+    width: 100%;
+    height: 484px;
+    position: absolute;
+    top: 788px;
+}
+.servisecont {
+    margin: 0 auto 0 auto;
+    width: 1079px;
+}
+.servisecont h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39.3158px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #04204D;
+    margin: 32.7632px 0px;
+}
+.serviselist {
     display: flex;
+    height: 322px;
     flex-direction: column;
-    align-content: space-around;
-    align-items: center;
-    background-color: #C5D1D8;
+    justify-content: space-between;
 }
-.content {
-    width: 60%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.cart {
-    width: 250px;
-    height: 200px;
-    border-radius: 5px;
-    margin: 10px 5px 10px 5px;
-}
-
-.hcont {
-    font-family: "Montserrat";
+.serviselist h3 {
+    left: 72px;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 27px;
     color: #000000;
-    flex-wrap: nowrap;
-    margin-top: 10px;
+}
+.servitem {
+    display: flex;
+}
+.servitem img {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+}
+.servitem p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
 }
 
-.contact img {
-    width: 50px;
-    height: 50px;
+.advantage {
+    position: absolute;
+    width: 100%;
+    height: 424px;
+    top: 1305px;
+    background-color: tomato;
 }
 
-.wsev {
-    width: 70px;
-}
-.hsev {
-    height: 70px;
-}
-.wth {
-    width: 200px;
-}
-.hoh {
-    height: 100px;
-}
-.wohf {
-    width: 125px;
-}
-.hsix {
-    height: 60px;
-}
-.wsix {
-    width: 60px;
-}
-@media screen and (max-width: 985px) {
-    .cart {
-        width: 80%;
-        height: auto;
-        border-radius: 5px;
-        margin: 10px 5px 10px 5px;
-    }
-    .content {
-        width: 90%;
-        align-items: flex-start;
-    }
-    .contact img {
-        width: 10px;
-        height: 10px;
-    }
-    .wsev {
-        width: 60px;
-    }
-    .hsev {
-        height: 60px;
-    }
-    .wth {
-        width: 100px;
-    }
-    .hoh {
-        height: 50px;
-    }
-    .wohf {
-        width: 100px;
-    }
-    .hsix {
-        height: 50px;
-    }
-    .wsix {
-        width: 50px;
-    }
+.advantagecont {
+    margin: 0 auto 0 auto;
+    width: 1079px;
+    display: flex;
+    background-color: violet;
 }
 
-.element-animationrotate {
-    /* Скрыть элемент в начальном состоянии */
-    opacity: 0;
-    transform: rotate(45deg);
-  }
-
-.element-animationrotate.element-show {
-    opacity: 1;
-    transition: all 1s;
-    transform: rotate(0);
+.advantagecont h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+    color: #FFFFFF;
+}
+.advcarts {
+    display: flex;
+}
+.advcart {
+    display: flex;
+}
+.advcart img {
+    display: flex;
+    width: 105px;
+    height: 105px;
+}
+.advcart h3 {
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    color: #FFFFFF;
+}
+.advcart p {
+    display: flex;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.233px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
