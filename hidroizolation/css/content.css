@@ -57,14 +57,17 @@
     width: 100%;
     height: 424px;
     top: 1305px;
-    background-color: tomato;
+    background: #04204D;
 }
 
 .advantagecont {
     margin: 0 auto 0 auto;
     width: 1079px;
+    height: 424px;
     display: flex;
-    background-color: violet;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .advantagecont h2 {
@@ -78,9 +81,16 @@
 }
 .advcarts {
     display: flex;
+    width: 100%;
+    height: 196.28px;
+    justify-content: space-around;
 }
 .advcart {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 196.28px;
+    justify-content: space-between;
 }
 .advcart img {
     display: flex;
@@ -97,7 +107,7 @@
     display: flex;
     color: #FFFFFF;
 }
-.advcart p {
+.advcart a {
     display: flex;
     font-family: "Roboto";
     font-style: normal;
@@ -106,4 +116,113 @@
     line-height: 18px;
     text-decoration-line: underline;
     color: #FFFFFF;
+}
+.advcart a:hover {
+    font-size: 17px;
+}
+.price {
+    width: 100%;
+    height: 484px;
+    position: absolute;
+    top: 1831px;
+}
+.pricecontent {
+    margin: 0 auto 0 auto;
+    width: 1079px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricecontent h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.priceform {
+    position: absolute;
+    display: flex;
+    width: 1082px;
+    height: 351px;
+    top: 99px;
+    background: #001241;
+    border-radius: 20px;
+}
+.blockprice {
+    width: 438px;
+}
+.blockprice p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.blockprice select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 438px;
+    height: 69px;
+    background: #F4A407;
+    border-radius: 20px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #001241;
+}
+
+.selop {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.selop:hover {
+    font-weight: bold;
+    background-color:chartreuse;
+}
+.selcont {
+    background: #F4A407;
+    border: 1px solid #F4A407;
+    border-radius: 10px;
+}
+.blockprice input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 438px;
+    height: 69px;
+    background: #F4A407;
+    border-radius: 20px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #001241;
+}
+.blockprice input::-webkit-outer-spin-button,
+.blockprice input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
