@@ -50,3 +50,43 @@
     height: 732px;
     background-color: tomato;
 }
+.headercontainer h1 {
+    position: absolute;
+    left: 421px;
+    top: 114px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.headercontainer p {
+    position: absolute;
+    width: 491px;
+    height: 130px;
+    left: 421px;
+    top: 236px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+    color: #FFFFFF;
+}
+.headercontainer a {
+    position: absolute;
+width: 274px;
+height: 56.05px;
+left: 421px;
+top: 439px;
+
+background: #F4A407;
+border-radius: 12.4545px;
+}
