@@ -70,7 +70,7 @@
     justify-content: space-around;
 }
 
-.advantagecont h2 {
+.advantagecont h2, .ourworkscont h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
@@ -133,7 +133,7 @@
     flex-direction: column;
     align-items: center;
 }
-.pricecontent h2 {
+.pricecontent h2, .contactcontainer h2 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
@@ -151,6 +151,10 @@
     top: 99px;
     background: #001241;
     border-radius: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 .blockprice {
     width: 438px;
@@ -162,7 +166,7 @@
     font-size: 18px;
     line-height: 21px;
     /* identical to box height */
-
+    margin: 0 0 20px 0;
     display: flex;
     align-items: center;
     text-align: center;
@@ -202,7 +206,7 @@
     border: 1px solid #F4A407;
     border-radius: 10px;
 }
-.blockprice input {
+.mettrs, .cost{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -225,4 +229,86 @@
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.cost {
+    background: white
+}
+
+.ourworks {
+    width: 100%;
+    height: 1165px;
+    position: absolute;
+    top: 2473px;
+    background: #001241;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourworkscont {
+    width: 1082px;
+    height: 1165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.worksa, .worksb {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.worksa p, .worksb p {
+    width: 675px;
+    height: 255px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.8462px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.worksa img, .worksb img {
+    width: 348.38px;
+    height: 255px;
+}
+.ourworkscont a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.814px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #001241;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    width: 361.67px;
+    height: 64px;
+    background: #F4A407;
+    border-radius: 14.8837px;
+    text-decoration: none;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.contact {
+    width: 100%;
+    height: 578px;
+    position: absolute;
+    top: 3638px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactcontainer {
+    width: 1082px;
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapcont {
+    display: flex;
 }

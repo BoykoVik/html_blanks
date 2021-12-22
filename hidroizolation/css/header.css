@@ -48,13 +48,12 @@
     margin: 0 auto 0 auto;
     width: 1079px;
     height: 732px;
+
 }
 .headercontainer h1 {
     position: absolute;
-    left: 421px;
     top: 114px;
-
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -67,23 +66,18 @@
     position: absolute;
     width: 491px;
     height: 130px;
-    left: 421px;
     top: 236px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 110%;
-    /* or 26px */
-
     color: #FFFFFF;
 }
 .headercontainer a {
     position: absolute;
     width: 274px;
     height: 56.05px;
-    left: 421px;
     top: 439px;
     background: #F4A407;
     border-radius: 12.4545px;
@@ -100,9 +94,9 @@
     color: #001241;
 }
 .headercontainer img {
-    position: absolute;
+    position: relative;
     width: 501.45px;
     height: 599.83px;
-    left: 901px;
-    top: 70px;
+    top: 72px;
+    left: 500px;
 }
