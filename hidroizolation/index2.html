@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css" media="screen">
     <link rel="stylesheet" href="css/content.css" media="screen">
     <link rel="stylesheet" href="css/footer.css" media="screen">
+    <link rel="stylesheet" href="css/form.css" media="screen">
 </head>
 <body>
     <header id="content" class="header">
@@ -211,6 +212,17 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!--ЗАЯВКА-->
+    <div class="order">
+        <span class="close">&times;</span>
+        <form action="/action_page.php" class="form-container">
+            <h3>Оставить заявку</h3>
+            <input type="text" class="smf" placeholder="Введите Ваше имя" required>
+            <input type="tel" class="smf" placeholder="Введите Ваш телефон" required>
+            <input type="text" class="bigf" placeholder="Опишите задачу" required>
+            <button type="submit" onclick="closeForm()">Отправить</button>
+          </form>
     </div>
 </body>
 <script src="js/menu.js"></script>
