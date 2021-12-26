@@ -33,7 +33,6 @@ body {
 }
 .navbar a {
     text-decoration: none;
-
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -55,6 +54,7 @@ body {
     margin: 0 auto 0 auto;
     width: 1079px;
     height: 732px;
+    text-align: right;
 }
 .headercontainer h1 {
     position: absolute;
@@ -100,11 +100,12 @@ body {
     color: #001241;
 }
 .headercontainer img {
-    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
     width: 501.45px;
     height: 599.83px;
     top: 72px;
-    left: 500px;
+    
 }
 @media screen and (max-width: 769px) {
     .navbar {
@@ -142,5 +143,27 @@ body {
   
 }
 @media screen and (max-width : 420px) {
-    
+    .headercontainer h1 {
+        top: 10px;
+        font-size: 28px;
+        margin-left: 20px;
+        line-height: 3vh;
+    }
+    .headercontainer img {
+        width: 144px;
+        height: 166px;
+        top: 15px;
+        left: 260px;
+    }
+    .headercontainer p {
+        width: 220px;
+        top: 90px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .headercontainer {
+
+        width: 100%;
+    }
+
 }
