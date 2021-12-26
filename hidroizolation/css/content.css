@@ -3,10 +3,11 @@
     height: 484px;
     position: absolute;
     top: 788px;
+    display: flex;
 }
 .servisecont {
     margin: 0 auto 0 auto;
-    width: 1079px;
+
 }
 .servisecont h2 {
     font-style: normal;
@@ -99,7 +100,6 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    display: flex;
     color: #FFFFFF;
 }
 
@@ -108,6 +108,7 @@
     height: 484px;
     position: absolute;
     top: 1731px;
+    display: flex;
 }
 .pricecontent {
     margin: 0 auto 0 auto;
@@ -284,7 +285,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .mapcont {
     display: flex;
@@ -316,4 +317,99 @@
     align-items: center;
     text-align: center;
     color: #000000;
+}
+
+@media screen and (max-width: 769px) {
+    .servise {
+        top: 375px;
+        height: 386px;
+    }
+    .servisecont {
+        margin: 0 auto 0 auto;
+    }
+    .serviselist {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 240px;
+    }
+    .servitem p {
+
+        font-size: 18px;
+
+    }
+    .servisecont h2 {
+        margin: 0px;
+    }
+    .advantage {
+        height: 240px;
+        top: 667px;
+        display: flex;
+    }
+    .advantagecont {
+        width: 1079px;
+        height: 277px;
+    }
+    .advcart img {
+        display: flex;
+        width: 80px;
+        height: 80px;
+    }
+    .advcart {
+        height: 146.28px;
+    }
+    .advcart h3 {
+        text-align: center;
+    }
+    .price {
+        top: 920px;
+    }
+    .pricecontent h2, .contact h2 {
+        margin: 0;
+    }
+    .priceform {
+        height: 416px;
+        top: 50px;
+        flex-wrap: nowrap;
+        width: 545px;
+    }
+    .blockprice p {
+        margin: 0;
+    }
+    .ourworks {
+        top: 1396px;
+        height: 958px;
+    }
+    .ourworkscont {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ourworkscont a {
+        margin-bottom: 10px;
+    }
+    .worksa p, .worksb p {
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .worksa img {
+        margin-left: 20px;
+    } 
+    .worksb img {
+       margin-right: 20px;
+    }
+    .contact {
+        top: 2355px;
+        height: 407px;
+    }
+    .contactcontainer {
+        width: 100%;
+    }
+    .mapcont {
+        width: 60%;
+    }
+    .contabout {
+        width: 45%;
+        margin-left: 10px;
+    }
 }

@@ -55,11 +55,23 @@
     margin-bottom: 15px;
 }
 .footmenu, .footserv, .footcomp, .footcontact {
-    height: 336px;
     display: flex;
     flex-direction: column;
+    margin: 0 5px 10px 5px;
 }
 .controw {
     display: flex;
     flex-direction: row;
+}
+@media screen and (max-width: 769px) {
+    .footer {
+        top: 2780px;
+        height: 260px;
+    }
+    .footercont {
+        width: 100%;
+    }
+    .footercont p, a {
+        margin-bottom: 0;
+    }
 }
