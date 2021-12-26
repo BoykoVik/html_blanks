@@ -134,9 +134,13 @@ body {
     }
     .headercontainer {
         height: 320px;
+        width: 100%;
     }
     .headcontent {
         height: 320px;
     }
   
+}
+@media screen and (max-width : 420px) {
+    
 }
