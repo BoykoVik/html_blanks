@@ -64,14 +64,30 @@
     flex-direction: row;
 }
 @media screen and (max-width: 769px) {
-    .footer {
-        top: 2780px;
-        height: 260px;
-    }
     .footercont {
         width: 100%;
     }
-    .footercont p, a {
+    .footer {
+        top: 2765px;
+    }
+}
+@media screen and (max-width : 425px) {
+    .footer {
+        top: 2310px;
+        height: 250px;
+    }
+    .footercont p, .footer a {
+        font-size: 10px;
         margin-bottom: 0;
+    }
+    .footercont h3{
+        margin: 0;
+        font-size: 12px;
+
+    }
+    .footercont img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
     }
 }

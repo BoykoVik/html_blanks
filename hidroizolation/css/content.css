@@ -237,18 +237,19 @@
     justify-content: space-between;
 }
 .worksa p, .worksb p {
-    width: 675px;
-    height: 255px;
+    width: 55%;
+    height: auto;
     font-style: normal;
     font-weight: normal;
     font-size: 25.8462px;
     line-height: 110%;
     color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .worksa img, .worksb img {
-    width: 348.38px;
-    height: 255px;
+    width: 40%;
 }
 .ourworkscont a {
     font-style: normal;
@@ -333,9 +334,7 @@
         height: 240px;
     }
     .servitem p {
-
         font-size: 18px;
-
     }
     .servisecont h2 {
         margin: 0px;
@@ -414,5 +413,132 @@
     }
     .advantagecont {
         width: 100%;
+    }
+    .order {
+        display: none;
+    }
+}
+@media screen and (max-width : 425px) {
+    .servise {
+        top: 286px;
+        height: 330px;
+    }
+    .servisecont {
+        margin: 0 auto 0 auto;
+    }
+    .serviselist {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 240px;
+    }
+    .servitem p {
+        font-size: 16px;
+    }
+    .servisecont h2 {
+        margin: 0px;
+        font-size: 28px;
+    }
+    .servisecont h3 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .servitem img {
+        width: 20px;
+        height: 20px;
+    }
+    .advantage {
+        height: 175px;
+        top: 620px;
+        display: flex;
+    }
+    .advantagecont {
+        width: 100%;
+        height: 185px;
+        text-align: center;
+    }
+    .advcart img {
+        display: flex;
+        width: 50px;
+        height: 50px;
+    }
+    .advantagecont h2, .ourworkscont h2, .pricecontent h2, .contact h2 {
+        font-size: 25px;
+    }
+    .advcart {
+        height: 115px;
+    }
+    .advcarts {
+        height: 135px;
+    }
+    .advcart h3 {
+        text-align: center;
+        font-size: 14px;
+    }
+    .price {
+        top: 795px;
+    }
+    .pricecontent h2, .contact h2 {
+        margin: 0;
+    }
+    .priceform{
+        width: 100%;
+    }
+    .priceform *, .blockprice p {
+        margin-left: 10px;
+    }
+    .blockprice select, .blockprice  {
+        width: 90%;
+    }
+
+    .mettrs, .cost{
+        width: 90%;
+    }
+    .ourworks {
+        top: 1268px;
+        height: 640px;
+    }
+    .ourworkscont {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ourworkscont a {
+        margin-bottom: 10px;
+    }
+    .worksa p, .worksb p {
+        font-weight: normal;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .worksa img {
+        margin-left: 10px;
+    } 
+    .worksa, .worksb {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .worksb img {
+       margin-right: 10px;
+    }
+    .ourworkscont {
+        height: auto;
+        margin: 10px;
+    }
+    .contact {
+        top: 1900px;
+        height: 407px;
+    }
+    .contactcontainer {
+        width: 100%;
+        flex-direction: column;
+    }
+    .mapcont {
+        width: 90%;
+    }
+    .contabout {
+        display: none;
+    }
+    .order {
+        display: none;
     }
 }
