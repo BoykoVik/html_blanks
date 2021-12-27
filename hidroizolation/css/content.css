@@ -448,7 +448,7 @@
     }
     .advantage {
         height: 175px;
-        top: 620px;
+        top: 632px;
         display: flex;
     }
     .advantagecont {
@@ -475,7 +475,7 @@
         font-size: 14px;
     }
     .price {
-        top: 795px;
+        top: 800px;
     }
     .pricecontent h2, .contact h2 {
         margin: 0;
@@ -502,6 +502,7 @@
         justify-content: space-between;
     }
     .ourworkscont a {
+        display: none;
         margin-bottom: 10px;
     }
     .worksa p, .worksb p {
