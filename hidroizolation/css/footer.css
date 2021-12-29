@@ -1,8 +1,8 @@
 .footer {
-    position: absolute;
+
     width: 100%;
     height: 336px;
-    top: 4016px;
+
     background: #001241;
     display: flex;
     flex-direction: column;
@@ -68,12 +68,12 @@
         width: 100%;
     }
     .footer {
-        top: 2765px;
+       
     }
 }
 @media screen and (max-width : 425px) {
     .footer {
-        top: 2310px;
+        
         height: 250px;
     }
     .footercont p, .footer a {

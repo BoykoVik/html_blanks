@@ -1,8 +1,8 @@
 .servise {
     width: 100%;
     height: 484px;
-    position: absolute;
-    top: 788px;
+
+
     display: flex;
 }
 .servisecont {
@@ -51,10 +51,10 @@
 }
 
 .advantage {
-    position: absolute;
+
     width: 100%;
     height: 424px;
-    top: 1305px;
+
     background: #04204D;
 }
 
@@ -106,8 +106,8 @@
 .price {
     width: 100%;
     height: 484px;
-    position: absolute;
-    top: 1731px;
+
+
     display: flex;
 }
 .pricecontent {
@@ -128,11 +128,11 @@
     margin-top: 20px;
 }
 .priceform {
-    position: absolute;
+
     display: flex;
     width: 1082px;
     height: 351px;
-    top: 99px;
+
     background: #001241;
     border-radius: 20px;
     flex-direction: column;
@@ -216,8 +216,8 @@
 .ourworks {
     width: 100%;
     height: 1165px;
-    position: absolute;
-    top: 2273px;
+
+
     background: #001241;
     display: flex;
     flex-direction: column;
@@ -274,8 +274,7 @@
 .contact {
     width: 100%;
     height: 578px;
-    position: absolute;
-    top: 3438px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -322,7 +321,7 @@
 
 @media screen and (max-width: 769px) {
     .servise {
-        top: 375px;
+
         height: 386px;
     }
     .servisecont {
@@ -341,7 +340,7 @@
     }
     .advantage {
         height: 240px;
-        top: 667px;
+
         display: flex;
     }
     .advantagecont {
@@ -360,14 +359,14 @@
         text-align: center;
     }
     .price {
-        top: 920px;
+ 
     }
     .pricecontent h2, .contact h2 {
         margin: 0;
     }
     .priceform {
         height: 416px;
-        top: 50px;
+    
         flex-wrap: nowrap;
         width: 545px;
     }
@@ -375,7 +374,7 @@
         margin: 0;
     }
     .ourworks {
-        top: 1396px;
+       
         height: 958px;
     }
     .ourworkscont {
@@ -420,7 +419,7 @@
 }
 @media screen and (max-width : 425px) {
     .servise {
-        top: 286px;
+     
         height: 330px;
     }
     .servisecont {
@@ -475,7 +474,7 @@
         font-size: 14px;
     }
     .price {
-        top: 800px;
+      
     }
     .pricecontent h2, .contact h2 {
         margin: 0;
@@ -494,7 +493,7 @@
         width: 90%;
     }
     .ourworks {
-        top: 1268px;
+       
         height: 640px;
     }
     .ourworkscont {
@@ -526,7 +525,7 @@
         margin: 10px;
     }
     .contact {
-        top: 1900px;
+   
         height: 407px;
     }
     .contactcontainer {
