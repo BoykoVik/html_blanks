@@ -1,331 +1,36 @@
 /*HEADER*/
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1079px) {
     .navbar {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .headercontainer h1 {
-
-        font-size: 32px;
-        margin-left: 20px;
-    }
-    .headercontainer p {
-        width: 60%;
-
-        font-size: 18px;
-        margin-left: 20px;
-    }
-    .headercontainer button {
-
-        margin-left: 80px;
-    }
-    .headercontainer img {
-        width: 30%;
-        bottom: 10px;
-    }
-    .headercontainer {
-        height: 320px;
         width: 100%;
     }
-    .headcontent {
-        height: 320px;
+
+    .headercontainer {
+        width: 100%;
     }
-  
+    .navbar {
+        width: 100%;
+    }
 }
 @media screen and (max-width : 425px) {
-    .header {
-       width: 100%;
-       height: 200px;
-       display: flex;
+    .navbar {
+       display: none;
     }
-    .navbarwidth {
-        display: none;
-    }
-    .headcontent {
-        width: 100%;
-        top: 0px;
-        height: 290px;
-        position: static;
-    }
-    .headercontainer {
-        margin: 0 auto 0 auto;
-        width: 100%;
-        text-align: right;
-    }
-    .headercontainer h1 {
 
-        font-size: 18px;
-    }
-    .headercontainer p {
-        width: 40%;
-        top: 50px;
-        font-size: 14px;
-
-    }
-    .headercontainer button {
-
-        margin-left: 20px;
-    }
-    .headercontainer img {
-        margin-top: 10px;
-        margin-right: 0px;
-        width: 40%;
-
-    }
 }
 
 /*CONTENT*/
 @media screen and (max-width: 769px) {
-    .servise {
 
-        height: 386px;
-    }
-    .servisecont {
-        margin: 0 auto 0 auto;
-    }
-    .serviselist {
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 240px;
-    }
-    .servitem p {
-        font-size: 18px;
-    }
-    .servisecont h2 {
-        margin: 0px;
-    }
-    .advantage {
-        height: 240px;
-
-        display: flex;
-    }
-    .advantagecont {
-        width: 1079px;
-        height: 277px;
-    }
-    .advcart img {
-        display: flex;
-        width: 80px;
-        height: 80px;
-    }
-    .advcart {
-        height: 146.28px;
-    }
-    .advcart h3 {
-        text-align: center;
-    }
-    .price {
- 
-    }
-    .pricecontent h2, .contact h2 {
-        margin: 0;
-    }
-    .priceform {
-        height: 416px;
-    
-        flex-wrap: nowrap;
-        width: 545px;
-    }
-    .blockprice p {
-        margin: 0;
-    }
-    .ourworks {
-       
-        height: 958px;
-    }
-    .ourworkscont {
-        width: 100%;
-        justify-content: space-between;
-    }
-    .ourworkscont a {
-        margin-bottom: 10px;
-    }
-    .worksa p, .worksb p {
-        font-weight: normal;
-        font-size: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .worksa img {
-        margin-left: 20px;
-    } 
-    .worksb img {
-       margin-right: 20px;
-    }
-    .contact {
-        top: 2355px;
-        height: 407px;
-    }
-    .contactcontainer {
-        width: 100%;
-    }
-    .mapcont {
-        width: 60%;
-    }
-    .contabout {
-        width: 45%;
-        margin-left: 10px;
-    }
-    .advantagecont {
-        width: 100%;
-    }
-    .order {
-        display: none;
-    }
 }
 @media screen and (max-width : 425px) {
-    .servise {
-     
-        height: 330px;
-    }
-    .servisecont {
-        margin: 0 auto 0 auto;
-    }
-    .serviselist {
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 240px;
-    }
-    .servitem p {
-        font-size: 16px;
-    }
-    .servisecont h2 {
-        margin: 0px;
-        font-size: 28px;
-    }
-    .servisecont h3 {
-        font-size: 22px;
-        margin-bottom: 5px;
-    }
-    .servitem img {
-        width: 20px;
-        height: 20px;
-    }
-    .advantage {
-        height: 175px;
-        top: 632px;
-        display: flex;
-    }
-    .advantagecont {
-        width: 100%;
-        height: 185px;
-        text-align: center;
-    }
-    .advcart img {
-        display: flex;
-        width: 50px;
-        height: 50px;
-    }
-    .advantagecont h2, .ourworkscont h2, .pricecontent h2, .contact h2 {
-        font-size: 25px;
-    }
-    .advcart {
-        height: 115px;
-    }
-    .advcarts {
-        height: 135px;
-    }
-    .advcart h3 {
-        text-align: center;
-        font-size: 14px;
-    }
-    .price {
-      
-    }
-    .pricecontent h2, .contact h2 {
-        margin: 0;
-    }
-    .priceform{
-        width: 100%;
-    }
-    .priceform *, .blockprice p {
-        margin-left: 10px;
-    }
-    .blockprice select, .blockprice  {
-        width: 90%;
-    }
 
-    .mettrs, .cost{
-        width: 90%;
-    }
-    .ourworks {
-       
-        height: 640px;
-    }
-    .ourworkscont {
-        width: 100%;
-        justify-content: space-between;
-    }
-    .ourworkscont a {
-        display: none;
-        margin-bottom: 10px;
-    }
-    .worksa p, .worksb p {
-        font-weight: normal;
-        font-size: 12px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .worksa img {
-        margin-left: 10px;
-    } 
-    .worksa, .worksb {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    .worksb img {
-       margin-right: 10px;
-    }
-    .ourworkscont {
-        height: auto;
-        margin: 10px;
-    }
-    .contact {
-   
-        height: 407px;
-    }
-    .contactcontainer {
-        width: 100%;
-        flex-direction: column;
-    }
-    .mapcont {
-        width: 90%;
-    }
-    .contabout {
-        display: none;
-    }
-    .order {
-        display: none;
-    }
 }
 /*FORM*/
 
 /*FOOTER*/
 @media screen and (max-width: 769px) {
-    .footercont {
-        width: 100%;
-    }
-    .footer {
-       
-    }
+
 }
 @media screen and (max-width : 425px) {
-    .footer {
-        
-        height: 250px;
-    }
-    .footercont p, .footer a {
-        font-size: 10px;
-        margin-bottom: 0;
-    }
-    .footercont h3{
-        margin: 0;
-        font-size: 12px;
 
-    }
-    .footercont img {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
 }
