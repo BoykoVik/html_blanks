@@ -45,7 +45,7 @@
     height: 20px;
     margin-right: 10px;
 }
-.footercont p, a {
+.footercont p, .footercont a {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

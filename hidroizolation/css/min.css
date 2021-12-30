@@ -5,18 +5,91 @@
     }
     .headercontainer {
         width: 100%;
+        height: auto;
+    }
+    .headercontent {
+        height: auto;
     }
     .navbar {
         width: 100%;
     }
+    .headercontainer h1, p, button {
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .headercontainer img {
+        height: 90%;
+        width: auto;
+        top: 0;
+        right: 0;
+        margin: 5px;
+    }
 }
+@media screen and (max-width : 840px) {
+    .headercontainer h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .headercontainer h1 {
+        font-size: 32px;
+    }
+    .headercontainer img {
+        height: auto;
+        width: 40%;
+        top: auto;
+        right: 0;
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width : 425px) {
     .navbar {
-       display: none;
+        display: none;
     }
-
+    .headercontainer h1 {
+        font-size: 27px;
+    }
+    .headercontainer img {
+        height: auto;
+        width: 40%;
+        top: auto;
+    }
+    .headercontainer p {
+        font-size: 20px;
+    }
+    .headercontainer h1, p, button {
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
-
+@media screen and (max-width : 375px) {
+    .headercontainer p {
+        width: 60%;
+    }
+    .headercontainer h1 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .headercontainer p {
+        width: 60%;
+        font-size: 16px;
+    }
+    .headercontainer h1 {
+        font-size: 20px;
+    }
+    .headercontainer img {
+        height: auto;
+        width: 35%;
+        top: 15%;
+        right: 0;
+        margin: 5px;
+    }
+}
 /*CONTENT*/
 @media screen and (max-width: 769px) {
 

@@ -20,16 +20,19 @@ body {
     display: flex;
 }
 .navbar {
+
     margin: 0 auto 0 auto;
     background-color: rgb(255, 255, 255);
     width: 1079px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0px;
 }
 .navbar a {
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -37,6 +40,8 @@ body {
     line-height: 19px;
     text-transform: uppercase;
     color: #001241;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .navbar a:hover {
     font-weight: bold;
@@ -44,12 +49,11 @@ body {
 .headcontent {
     width: 100%;
     background: #04204D;
-    height: 730px;
 }
 .headercontainer {
     margin: 0 auto 0 auto;
     width: 1079px;
-    height: 730px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -65,7 +69,7 @@ body {
     color: #FFFFFF;
 }
 .headercontainer p {
-    width: 30%;
+    width: 50%;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
