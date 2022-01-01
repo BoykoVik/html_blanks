@@ -47,11 +47,31 @@
         justify-content: space-around;
         margin-bottom: 30px;
     }
-    
+    .pricecontent {
+        width: 100%;
+    }
+    .priceform {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .blockprice select, .mettrs, .cost {
+        width: 50%;
+        height: 69px;
+    }
+    .blockprice {
+        width: 100%;
+    }
+    .ourworkscont {
+        width: 90%;
+    }
 }
 @media screen and (max-width : 840px) {
     .headercontainer h1 {
         font-size: 38px;
+    }
+    .worksa p, .worksb p {
+        font-size: 18px;
     }
 }
 
@@ -97,7 +117,23 @@
         height: 80px;
     }
 }
-
+@media screen and (max-width : 620px) {
+    .worksb {
+        display: none;
+    }
+    .worksa {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .worksa p, .worksb p {
+        width: 90%;
+    }
+    .worksa img, .worksb img {
+        width: 90%;
+    }
+}
 @media screen and (max-width : 425px) {
     .navbar {
         display: none;
@@ -131,6 +167,17 @@
     .advantagecont h2, .ourworkscont h2 {
         font-size: 24px;
     }
+    .blockprice select, .mettrs, .cost {
+        width: 80%;
+        height: 69px;
+    }
+    .pricecontent h2, .contact h2 {
+        font-size: 24px;
+    }
+    .worksa p, .worksb p {
+        font-size: 16px;
+    }
+
 }
 @media screen and (max-width : 375px) {
     .headercontainer p {
@@ -139,6 +186,7 @@
     .headercontainer h1 {
         font-size: 24px;
     }
+
 }
 @media screen and (max-width : 320px) {
     .headercontainer p {
