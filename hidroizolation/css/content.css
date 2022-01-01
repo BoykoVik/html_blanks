@@ -1,6 +1,6 @@
 .servise {
     width: 100%;
-    height: 484px;
+    height: auto;
 
 
     display: flex;
@@ -21,7 +21,7 @@
 }
 .serviselist {
     display: flex;
-    height: 322px;
+    height: auto;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -32,12 +32,16 @@
     font-size: 24px;
     line-height: 27px;
     color: #000000;
+    margin-left: 10px;
 }
 .servitem {
     display: flex;
     align-content: center;
     flex-direction: row;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 .servitem img {
     display: flex;
