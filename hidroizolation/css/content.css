@@ -35,6 +35,9 @@
 }
 .servitem {
     display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 .servitem img {
     display: flex;
