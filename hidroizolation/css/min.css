@@ -65,6 +65,20 @@
     .ourworkscont {
         width: 90%;
     }
+    .contactcontainer {
+        width: 100%;
+        height: auto;
+    }
+    .contact {
+        height: auto;
+    }
+    .footercont {
+        width: 100%;
+        height: auto;
+    }
+    .footer {
+        height: auto;
+    }
 }
 @media screen and (max-width : 840px) {
     .headercontainer h1 {
@@ -133,6 +147,21 @@
     .worksa img, .worksb img {
         width: 90%;
     }
+    .contactcontainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contabout {
+        width: 80%;
+        height: auto;
+    }
+    .contabout p {
+        margin: 5px;
+    }
+    .mapcont {
+        width: 80%;
+    }
 }
 @media screen and (max-width : 425px) {
     .navbar {
@@ -177,6 +206,7 @@
     .worksa p, .worksb p {
         font-size: 16px;
     }
+
 
 }
 @media screen and (max-width : 375px) {
