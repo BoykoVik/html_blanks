@@ -16,6 +16,7 @@ span.onclick = function() {
     modal.classList.remove("wrooom");
 }
 
+var k = false;
 
 //setTimeout(showForm, 5000);
 function showForm() {
@@ -24,7 +25,8 @@ function showForm() {
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-    if (document.documentElement.scrollTop >= 700) {
+    if (document.documentElement.scrollTop >= 700 && !k) {
+        k = true;
         showForm();
     }
     //console.log(document.documentElement.scrollTop);
