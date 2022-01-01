@@ -32,6 +32,22 @@
         margin: 0;
         font-size: 20px;
     }
+    .advantagecont {
+        width: 100%;
+        height: auto;
+    }
+    .advantage {
+        width: 100%;
+        height: auto;
+    }
+    .advantagecont h2, .ourworkscont h2 {
+        margin: 20px 0;
+    }
+    .advcart {
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    
 }
 @media screen and (max-width : 840px) {
     .headercontainer h1 {
@@ -65,6 +81,21 @@
         height: 24px;
         margin-right: 10px;
     }
+    .advantagecont h2, .ourworkscont h2 {
+        font-size: 28px;
+    }
+    .advcart {
+        height: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .advcart h3 {
+        font-size: 24px;
+    }
+    .advcart img {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 @media screen and (max-width : 425px) {
@@ -93,6 +124,13 @@
     .serviselist h3 {
         font-size: 20px;
     }
+    .advcart h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .advantagecont h2, .ourworkscont h2 {
+        font-size: 24px;
+    }
 }
 @media screen and (max-width : 375px) {
     .headercontainer p {
@@ -116,6 +154,13 @@
         top: 15%;
         right: 0;
         margin: 5px;
+    }
+    .advcart img {
+        width: 60px;
+        height: 60px;
+    }
+    .advantagecont h2, .ourworkscont h2 {
+        font-size: 20px;
     }
 }
 /*CONTENT*/
