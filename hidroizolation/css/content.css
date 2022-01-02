@@ -254,6 +254,10 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+.ourworkscont h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .worksa img, .worksb img {
     width: 40%;
@@ -287,11 +291,11 @@
 }
 .contactcontainer {
     width: 1082px;
-    height: 578px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 .mapcont {
     display: flex;
