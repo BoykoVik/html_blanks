@@ -94,11 +94,11 @@
             <div class="priceform">
                 <div class="blockprice">
                     <p>Выберите тип услуги:</p>
-                    <select name="servtype">
+                    <select id="typeprice" name="servtype">
                         <div class="selcont">
-                            <option class="selop" value="value1" selected>Аварийное инъектирование подземных помещений</option>
-                            <option class="selop" value="value2" >Инъектирование стен</option>
-                            <option class="selop" value="value3">Инъектирование деформационных швов</option>
+                            <option class="selop" value="1.2" selected>Аварийное инъектирование подземных помещений</option>
+                            <option class="selop" value="21" >Инъектирование стен</option>
+                            <option class="selop" value="32">Инъектирование деформационных швов</option>
                             <option class="selop" value="value4" >Инъектирование бетонных конструкций</option>
                             <option class="selop" value="value5">Инъектирование инженерных коммуникаций</option>
                         </div>
@@ -107,12 +107,12 @@
 
                 <div class="blockprice">
                     <p>Выберите размер выполняемых работ (м):</p>
-                    <input class="mettrs" type="number" min="1" max="44444444" size="10">
+                    <input class="mettrs" type="number" min="1" max="10000" size="10" oninput="costConverter(this.value)" onchange="costConverter(this.value)">
                 </div>
 
                 <div class="blockprice">
                     <p>Полученная стоимость (руб.):</p>
-                    <input class="cost" type="number" min="1" max="27">
+                    <input id="cost"  class="cost" type="number" min="1" max="27">
                     <p>* Конечная цена рассчитывается специалистом компании</p>
                 </div>
 

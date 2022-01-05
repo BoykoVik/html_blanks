@@ -68,3 +68,8 @@ window.addEventListener("DOMContentLoaded", function() {
   });
 
 });
+
+function costConverter(valNum) {
+    var rez = valNum * document.getElementById("typeprice").value;
+    document.getElementById("cost").value=rez.toFixed(2);
+  }
