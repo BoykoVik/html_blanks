@@ -34,9 +34,9 @@ for (i=0; i < arr.length; i++){
 }
 
 function showstep(i){
-  $(".steps p").css('display', 'none');
-  $(".steps p").css('opacity', '0');
-  var a = $(".steps p")[i];
+  $(".step").css('display', 'none');
+  $(".step").css('opacity', '0');
+  var a = $(".step")[i];
   a.style.display = 'block';
   $(a).animate({opacity: '1'}, 'slow');
 }

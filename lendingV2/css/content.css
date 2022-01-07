@@ -1,8 +1,21 @@
+.cont {
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+}
 .container {
     width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.container h2 {
+    margin: 20px 0 20px 0;
+    font-size: 22px;
 }
 .stepsname {
     width: 100%;
@@ -10,6 +23,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 .stepsname button {
     width: 200px;
@@ -23,17 +37,18 @@
     font-size: 16px;
     line-height: 20px;
     color: white;
-    background-color: #8444B5;
-    transition: background-color 1s, box-shadow 1s;
+    background-color: #2b2929;
+    transition: background-color 1s, box-shadow 1s, color 1s;
 
 
 }
 .stepsname button:hover {
     -webkit-box-shadow: 3px 3px 3px #9162B5;
     -moz-box-shadow: 3px 3px 3px #9162B5;
-    box-shadow: 3px 3px 3px #9162B5;
-    background-color: #44126B;
-    transition: background-color 1s, box-shadow 1s;
+    box-shadow: 3px 3px 3px #EDA200;
+    background-color: white;
+    color: black;
+    transition: background-color 1s, box-shadow 1s, color 1s;
 
 }
 
@@ -43,12 +58,15 @@
     align-items: center;
     width: 100%;
 }
-.steps p {
+.step {
     display: none;
+    opacity: 0;
+}
+.step p {
+    margin: 10px 20px 10px 20px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    opacity: 0;
-    
+    color: #faac05;
 }
