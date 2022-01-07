@@ -1,0 +1,26 @@
+.container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stepsname {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.stepsname button {
+    width: 200px;
+    height: 100px;
+}
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.steps p{
+    display: none;
+
+}
