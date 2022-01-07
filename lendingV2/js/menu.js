@@ -28,12 +28,16 @@ var arr = $(".stepsname button");
 
 for (i=0; i < arr.length; i++){
   var k = arr[i]
+  
   $(k).attr('onClick', 'showstep(' + i + ')');
+  //$(k).css('background-color', 'rgb(' + 17 + i*3 + ', ' + 17 + i*3 + ',' + 17 + i*3 + ')');
 }
 
 function showstep(i){
   $(".steps p").css('display', 'none');
+  $(".steps p").css('opacity', '0');
   var a = $(".steps p")[i];
   a.style.display = 'block';
+  $(a).animate({opacity: '1'}, 'slow');
 }
 showstep(0);

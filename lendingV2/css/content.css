@@ -14,13 +14,41 @@
 .stepsname button {
     width: 200px;
     height: 100px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    background-color: #8444B5;
+    transition: background-color 1s, box-shadow 1s;
+
+
 }
+.stepsname button:hover {
+    -webkit-box-shadow: 3px 3px 3px #9162B5;
+    -moz-box-shadow: 3px 3px 3px #9162B5;
+    box-shadow: 3px 3px 3px #9162B5;
+    background-color: #44126B;
+    transition: background-color 1s, box-shadow 1s;
+
+}
+
 .steps {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
-.steps p{
+.steps p {
     display: none;
-
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0;
+    
 }
