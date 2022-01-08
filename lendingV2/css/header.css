@@ -12,11 +12,12 @@ body {
     text-align: center;
     align-items: center;
     width: 100%;
-    background-color: black;
+    background-color: #24292B;
     background-size: 100% 250px;
     display: flex;
     border-bottom: #faac05 2px solid;
     flex-direction: column;
+    height: 400px;
 }
 .borderdiv {
     position: fixed;
@@ -72,12 +73,13 @@ body {
     line-height: 52px;
     text-transform: uppercase;
     padding-left: 5%;
-    color: #FAFBFD;
+    color: #EBDABF;
     text-align: left;
     display: flex;
     height: 200px;
     flex-direction: row;
     align-items: center;
+    border-left: #faac05 5px solid;
 }
 .conthaed p {
     display: flex;
@@ -96,12 +98,11 @@ body {
 .headcontact{
     display: flex;
     width: 1200px;
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #EBDABF;
 }
-.headcontact img{
-    display: flex;
-    width: 50px;
-    height: 50px;
-}
+
 .headcontact img:hover{
     background-color: red;
 }

@@ -1,16 +1,15 @@
 .cont {
     width: 100%;
     display: flex;
-    background-color: rgb(0, 0, 0);
     flex-direction: column;
     align-items: center;
 }
 .container {
     width: 1200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #24292B;
 }
 
 .container h2 {
@@ -18,40 +17,50 @@
     font-size: 22px;
 }
 .stepsname {
-    width: 100%;
+    width: 180px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
 }
 .stepsname button {
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 70px;
     margin: 0 5px 0 5px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     color: white;
     background-color: #2b2929;
     transition: background-color 1s, box-shadow 1s, color 1s;
-
-
+    border-top: #EDA200 2px solid;
+    border-right: none;
 }
+
 .stepsname button:hover {
     -webkit-box-shadow: 3px 3px 3px #9162B5;
     -moz-box-shadow: 3px 3px 3px #9162B5;
     box-shadow: 3px 3px 3px #EDA200;
     background-color: white;
-    color: black;
+    color: #faac05;
     transition: background-color 1s, box-shadow 1s, color 1s;
 
 }
-
+.zag {
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #faac05;
+    text-transform: uppercase;
+}
 .steps {
     display: flex;
     flex-direction: column;
@@ -61,12 +70,48 @@
 .step {
     display: none;
     opacity: 0;
+    height: 400px;
 }
 .step p {
+    display: flex;
     margin: 10px 20px 10px 20px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
+    line-height: 35px;
     color: #faac05;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.stepsimg {
+    display: flex;
+    width: 400px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.stepsimg img {
+    width: 80px;
+    height: auto;
+}
+.containertwo {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #24292B;
+}
+.calccheck {
+    height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.calccheck:hover {
+    background-color: blue;
+  }
+  .checkbox input[type=checkbox] {
+    background-color: red;
+  }

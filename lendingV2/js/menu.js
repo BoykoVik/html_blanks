@@ -28,16 +28,23 @@ var arr = $(".stepsname button");
 
 for (i=0; i < arr.length; i++){
   var k = arr[i]
-  
   $(k).attr('onClick', 'showstep(' + i + ')');
-  //$(k).css('background-color', 'rgb(' + 17 + i*3 + ', ' + 17 + i*3 + ',' + 17 + i*3 + ')');
+  $(k).css('background-color', '#2b2929');
 }
 
 function showstep(i){
+  for (t=0; t < arr.length; t++){
+    var k = arr[t]
+    $(k).css('background-color', '#2b2929');
+  }
   $(".step").css('display', 'none');
   $(".step").css('opacity', '0');
   var a = $(".step")[i];
-  a.style.display = 'block';
+  var bt = arr[i];
+  $(bt).css('background-color', '#24292B');
+
+  bt.classList.add("activebtn");
+  a.style.display = 'flex';
   $(a).animate({opacity: '1'}, 'slow');
 }
 showstep(0);
