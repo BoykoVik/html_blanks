@@ -1,4 +1,5 @@
 .nav {
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -7,7 +8,7 @@
     justify-content: center;
     color: #FFFFFF;
     background: linear-gradient(288.64deg, #04204D 14.33%, #517DC2 86.91%);
-    height: 70px;
+    height: 50px;
 }
 .navcontainer {
     min-width: 1200px;
@@ -49,7 +50,7 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.headercontainer h1 {
+.headercontainer h1, .servisescontainer h2 {
     font-size: 42px;
     line-height: 105%;
     color: #FFFFFF;
