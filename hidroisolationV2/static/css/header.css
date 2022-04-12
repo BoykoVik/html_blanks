@@ -1,0 +1,46 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+    background: linear-gradient(288.64deg, #04204D 14.33%, #517DC2 86.91%);
+    height: 70px;
+}
+.navcontainer {
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.navcontainer img {
+    position: relative;
+    top: 10px;
+    width: 120px;
+    height: 100px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.menu a {
+    margin: 0 10px 0 10px;
+}
+.telhead {
+    font-size: 18px;
+    line-height: 22px;
+}
+.header {
+    height: 630px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(288.64deg, #04204D 14.33%, #517DC2 86.91%);
+}
+.headercontainer {
+    min-width: 1200px;
+    display: flex;
+}
