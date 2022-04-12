@@ -23,3 +23,6 @@ h2 {
     margin-top: 30px;
     margin-bottom: 20px;
 }
+html {
+    scroll-behavior: smooth;
+    }

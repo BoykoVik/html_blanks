@@ -201,3 +201,31 @@
 .besting, .servshrefs, .contacts {
     margin: 20px 0;
 }
+.element-animationleft {
+    /* Скрыть элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+.element-animationleft.element-show {
+    opacity: 1;
+    transition: transform 1s;
+    transform: translateX(0px);
+}
+.element-animationright.element-show {
+    opacity: 1;
+    transition: transform 1s;
+    transform: translateX(0px);
+}
+
+.element-animationright {
+    /* Скрыть элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  .elementcontact:hover {
+    font-weight: 700;
+}
+.elementcontact:hover img {
+    filter: contrast(300%);
+}

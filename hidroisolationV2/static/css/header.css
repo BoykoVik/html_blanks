@@ -8,8 +8,15 @@
     justify-content: center;
     color: #FFFFFF;
     background: linear-gradient(288.64deg, #04204D 14.33%, #517DC2 86.91%);
-    height: 50px;
+    height: 40px;
 }
+.gain-center{
+    transition: 0.5s; /* Время эффекта */
+    text-align: center; 
+  }
+  .gain-center:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
 .navcontainer {
     min-width: 1200px;
     display: flex;
@@ -31,10 +38,22 @@
 .menu a {
     margin: 0 10px 0 10px;
 }
+.menu a:hover {
+    /*color: #F9DD01;*/
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+  }
 .telhead {
     font-size: 18px;
     line-height: 22px;
 }
+.telhead:hover {
+    /*color: #F9DD01;*/
+    -webkit-text-shadow: 2px 2px 2px #000;
+    -moz-text-shadow: 2px 2px 2px #000;
+        text-shadow: 2px 2px 2px #000;
+  }
 .header {
     height: 630px;
     width: 100%;
