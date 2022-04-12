@@ -97,10 +97,11 @@
     color: #FFFFFF;
 }
 .mediacontent {
-    min-width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 .btnsmedia {
     display: flex;
@@ -118,18 +119,49 @@
     background: rgba(141, 158, 185, 0.3);
 }
 .mediacontentitem {
-    display: none;
     width: 1200px;
-}
-.meditemactive {
     background: rgba(141, 158, 185, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    display: none;
+    position: relative;
 }
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    height: 90%;
+    width: auto;
+    padding: 16px;
+    color: #05214E;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* При наведении курсора добавьте черный цвет фона с немного прозрачным */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: #cbd5e4;
+  }
+
 .mediavideo {
-    width: 95%;
+    width: 90%;
     height: auto;
     padding: 20px;
 }
@@ -229,3 +261,28 @@
 .elementcontact:hover img {
     filter: contrast(300%);
 }
+.slide {
+    width: 90%;
+    padding: 20px;
+    display: none;
+}
+.activeslide {
+    display: flex;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
