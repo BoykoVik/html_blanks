@@ -170,6 +170,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .contact {
     width: 45%;
@@ -177,6 +178,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    min-width: 300px;
 }
 .elementcontact {
     color: #05214E;
@@ -200,6 +202,7 @@
     width: 100%;
     background:  linear-gradient(288.64deg, #04204D 14.33%, #517DC2 86.91%);
     border-radius: 5px;
+    min-width: 300px;
 }
 
 .form-container h3 {

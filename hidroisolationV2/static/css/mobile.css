@@ -1,7 +1,5 @@
 @media only screen and (max-width: 1240px){
-    .nav {
-        display: none;
-    }
+
     .navcontainer {
         min-width: 100%;
         justify-content: space-around;
@@ -43,6 +41,10 @@
         min-height: 30px;
         margin-right: 5px;
     }
+    .navcontainer img {
+        width: 80px;
+        height: 80px;
+    }
 }
 @media only screen and (max-width: 1040px){
     .wom {
@@ -52,7 +54,7 @@
         height: auto;
     }
     .headercontainer {
-        margin: 20px 0 20px 0;
+        margin: 40px 0 20px 0;
         display: flex;
         background-image: url(../imgs/img/headpic.png);
         background-position: center;

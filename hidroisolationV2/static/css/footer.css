@@ -12,6 +12,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     border-bottom: #FFFFFF 2px solid;
+    flex-wrap: wrap;
 }
 
 .footer h3 {
@@ -56,7 +57,7 @@ footer {
     flex-direction: column;
     margin: 0 5px 10px 5px;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 .controw {
     display: flex;
