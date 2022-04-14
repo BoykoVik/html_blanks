@@ -154,7 +154,7 @@
     border-radius: 3px 0 0 3px;
   }
   
-  /* При наведении курсора добавьте черный цвет фона с немного прозрачным */
+  /* При наведении курсора  */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
     color: #cbd5e4;
@@ -234,7 +234,7 @@
     margin: 20px 0;
 }
 .element-animationleft {
-    /* Скрыть элемент в начальном состоянии */
+    /* Скрыть элемент в начале */
     opacity: 0;
     transform: translateX(-100px);
   }
@@ -251,7 +251,6 @@
 }
 
 .element-animationright {
-    /* Скрыть элемент в начальном состоянии */
     opacity: 0;
     transform: translateX(100px);
   }
