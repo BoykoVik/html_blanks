@@ -4,7 +4,6 @@ footer {
     background: #1F4076;
     flex-direction: column;
     align-items: center;
-    height: 170px;
 }
 .footercontainer {
     width: 1200px;
