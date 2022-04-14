@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1200px){
+    .navcontainer {
+        min-width: 100%;
+    }
+}

@@ -23,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding: 0 20px 0 20px;
 }
 .navcontainer img {
     position: relative;
